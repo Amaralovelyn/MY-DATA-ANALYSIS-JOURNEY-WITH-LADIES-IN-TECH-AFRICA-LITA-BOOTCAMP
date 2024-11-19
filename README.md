@@ -1,6 +1,8 @@
 # MY-DATA-ANALYSIS-JOURNEY-WITH-LADIES-IN-TECH-AFRICA-LITA-BOOTCAMP
-
-### TITTLE: 3 MONTHS ONLINE TRAINING IN DATA ANALYSIS
+-----------------------------------------------------------------------------------------------------------------
+### TITTLE
+3 MONTHS ONLINE TRAINING IN DATA ANALYSIS
+------------------------------------------------------------------------------------
 
 ### OVERVIEW: It was a 3 Months Intensive and insightful online Training on Data Analysis with @Ladies In Tech Africa (LITA) Bootcamp, The Incubator Hub, Africa Missions Global
 
