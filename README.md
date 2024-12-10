@@ -164,3 +164,7 @@ Data entry is the process of manually entering data into cells within a spreadsh
 - Activate the form: Click on the "Form" button on the Quick Access Toolbar to open the data entry form. 
 - Enter data in the form: The form will display each column header as a field, allowing you to type data into each field individually. 
 - Add new records: Click "New" on the form to add a new row of data
+
+
+
+  
