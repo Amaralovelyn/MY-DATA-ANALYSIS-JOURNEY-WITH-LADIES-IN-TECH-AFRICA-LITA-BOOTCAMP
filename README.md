@@ -164,6 +164,51 @@ Data entry is the process of manually entering data into cells within a spreadsh
 - Activate the form: Click on the "Form" button on the Quick Access Toolbar to open the data entry form. 
 - Enter data in the form: The form will display each column header as a field, allowing you to type data into each field individually. 
 - Add new records: Click "New" on the form to add a new row of data
+  
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### DATA VALIDATION 
+This implies the reduction in input or entries into workbook to certain predefined items. It’s Data Cleaning that involves checking the accuracy and quality of source data before using, importing or otherwise processing data.
+
+#### Steps to add data validation to cells or range in excel
+-	Highlight the cell you want to validate
+-	Then on Data Tab click on Data Validation
+-	Or using shortcut, after highlighting the cell, press alt AVV
+-	Select List from the Allow box on the Settings tab
+-	Type the list values in the Source box, separated by commas
+-	Select the In-cell dropdown check box 
+
+#### To add Text validation
+ - Create a Named Range by clicking on Define Name on the Formulas Tab
+ - Then, Select a cell or range
+ - Press ALT AVV
+ - Allow list
+ - =created Named Range
+ - Ok
+ - This gives a dropdown option from which you can select.
+
+NB: Named Range: Is giving a set of items a single name so that you can refer to them somewhere
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+### FORMATTING IN EXCEL
+
+#### How can we clear or update validation
+-	Highlight the cell
+-	Press ALT AVV
+-	Update as necessary
+-	Or clear all and the column will be back to default
+  
+#### To Modify Validation error message
+-	Select a cell
+-	Press ALT AVV
+-	Click error alert
+-	Modify the title (Wrong Entry) and error message (Please select from the drop-down options) boxes
+-	ok
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
