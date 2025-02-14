@@ -230,3 +230,31 @@ We will look at Functions relating to Numbers and when there are conditions atta
 -         Click on each of the options to see the description that suits what you want to do
  
 One key thing that will come to mind whenever you are called to analyze a data set is to SUMMARIZE. So anytime you analyze a data set, what you do is DATA SUMMARIZATION.
+
+#### Company data set was given and we were to get:
+-	Grand Total
+-	Average Salary
+-	Highest Salary
+-	Lowest Salary
+-	Total No of Staff
+-	Fourth Highest Salary
+-	Third Lowest Salary
+
+#### Grand Total
+Because excel allows for arithmetic operation, we might start picking the numbers and add them together and still get the same Grand Total Salary. But thinks about it in this way, whenever you want to perform calculations in Excel, you want to use Functions in Excel, you have to start with an equality sign = that is the first thing. It gives Excel the understanding that you are ready to perform a calculation.
+Then the function to achieve this is SUM Function, the following should be taken note of:
+-	=sum
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+(Note: Below is the information about the function called the arguments for the function or Parameters, the one in bold is the argument excel is expecting you to type in, Any argument not in squared bracket is mandatory and must be supplied for that function to run otherwise it will return an error, While the arguments in squared bracket are optional)
+-	So once the initial bracket is opened 
+-	Select the first salary
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Close bracket
+-	Press Enter key
+-	The Total Salary will be displaced
+-	The formula and formula displayed  ```=SUM(D8:D27)```
+Note: Whenever you want to sum up numbers you use SUM function to achieve that.
+(Note: Below is the information about the function called the arguments for the function or Parameters, the one in bold is the argument excel is expecting you to type in, Any argument not in squared bracket is mandatory and must be supplied for that function to run otherwise it will return an error, While the arguments in squared bracket are optional)
+
