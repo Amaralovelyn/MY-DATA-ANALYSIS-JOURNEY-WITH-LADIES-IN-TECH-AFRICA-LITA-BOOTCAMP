@@ -258,3 +258,154 @@ Then the function to achieve this is SUM Function, the following should be taken
 Note: Whenever you want to sum up numbers you use SUM function to achieve that.
 (Note: Below is the information about the function called the arguments for the function or Parameters, the one in bold is the argument excel is expecting you to type in, Any argument not in squared bracket is mandatory and must be supplied for that function to run otherwise it will return an error, While the arguments in squared bracket are optional)
 
+#### Average Salary
+-	=Average
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened 
+-	Select the first salary
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Close bracket
+-	Press Enter key
+-	The Average Salary will be displaced
+-	Then the displayed formula ``` =AVERAGE(D8:D27)```
+
+#### Highest Salary
+-	=Max
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened 
+-	Select the first salary
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Close bracket
+-	Press Enter key
+-	The Highest Salary will be displaced
+-	Then the displayed formula ```=MAX(D8:D27)```
+
+#### Lowest Salary
+-	=Min
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened 
+-	Select the first salary
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Close bracket
+-	Press Enter key
+-	The Lowest Salary will be displaced
+-	Then the displayed formula ```=MIN(D8:D27)```
+
+#### Total No of Staff
+Here we will look at these functions: Count and counta functions
+Count Function is used when counting columns/cells that has numbers like the salary column.
+Counta Function is used when counting columns/cells that has names like the names columns or a column that has text. Counta function is also used when counting a column that has a mixture of texts and numbers
+
+#### Therefore to get the Total No of Staff, we should use the Counta Function. See below
+-	=Counta
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened 
+-	Select the first staff name
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Close bracket
+-	Press Enter key
+-	The Total Number of Staff will be displaced
+-	Then the displayed formula ```=COUNTA(B8:B27)```
+
+Note: It is important to use function in our computation because any update that happens to the source data automatically would be re-evaluated in your calculation and the calculation will be updated immediately.
+
+#### Fourth Highest Salary
+Remember Max function is used to get the highest or first position. When you need other than the first position Large function will help you do that. Large has 2 arguments/parameters – array and K. Array is the list or range of numbers that you want to find the largest within while K is the position (like the 3rd, 4th, 5th, etc) you want to return. So here we want to return the 4th Highest Salary, as seen below
+-	=Large
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened 
+-	Select the first salary
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Put comma ,
+-	Add 4 (the position you want to return)
+-	Close bracket
+-	Press Enter key
+-	The Fourth Highest Salary will be displaced
+-	Then the displayed formula  ```=LARGE(D8:D27,4)```
+
+#### Third Lowest Salary
+-	=small
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened 
+-	Select the first salary
+-	Then press ctrl + shift + down arrow to select the entire numbers range up until where there is a break
+-	Put comma ,
+-	Add 3 (the position you want to return)
+-	Close bracket
+-	Press Enter key
+-	The Third Lowest Salary will be displaced
+-	Then the displayed formula  ```=SMALL(D8:D27,3)```
+
+#### Note: Press alt = where you want your result to be on, this will automatically sum up all the numbers above it, then hit enter.
+
+
+### CONDITIONALS
+We calculate base on certain criteria and this implies that the normal SUM, AVERAGE, MAX, MIN would not work in this instance
+
+### TO CALCULATE
+The Total Bayelsa Salary: 
+Here we want to calculate how much is being paid to everybody in Bayelsa Company. The first thing to do is to sort the list of companies alphabetically.
+To do this:
+-	Right click on any item/list under the company column
+-	Click sort
+-	Click sort A to Z
+-	This puts together all the related companies and this helps to know the number of people in each company, it guides my computation but not a prerequisite.
+
+#### When you want to perform aggregations with Conditions or with certain criteria, then you need to use the ‘IF’ sister of that aggregation like SUMIF, AVERAGEIF, MAXIF, MINIF, COUNTIF, SUMIFS, AVERAGEIFS, MAXIFS, MINIFS, COUNTIFS.
+The singular Variant is used when you are factoring on one criterion e.g SUMIF, AVERAGEIF, MAXIF, MINIF, COUNTIF but when factoring on two or more criteria, the plural variants are used eg SUMIFS, AVERAGEIFS, MAXIFS, MINIFS, COUNTIFS.
+Here we want to calculate Total Salary for only people or staff in Bayelsa company, which means that normal SUM will not work but can only work with SUMIF or SUMIFS.
+
+
+#### Then to Calculate Bayelsa Total Salary
+-	=SUMIF
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened
+-	Press ctrl A on the keyboard (this activates/opens/pops up the function Argument box), then you have something to work with and manage the parameters of the argument. The Function Argument box helps split each of the parameters and gives a definition of what each of them means.
+-	Range, click on the company column, ctrl + shift + down arrow to select all the company list
+-	Criteria, click on any of the cells that has the company name (Bayelsa) you want to calculate
+-	Sum_range, click on the salary column, ctrl + shift + down arrow to select all the salary list
+-	Click ok
+-	The Formula Result is displayed  =SUMIF(C8:C27,C8,D8:D27)
+
+#### To Calculate Average Oyo Salary
+-	=AverageIF
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened
+-	Press ctrl A on the keyboard (this activates/opens/pops up the function Argument box), then you have something to work with and manage the parameters of the argument. The Function Argument box helps split each of the parameters and gives a definition of what each of them means.
+-	Range, click on the company column, ctrl + shift + down arrow to select all the company list
+-	Criteria, click on any of the cells that has the company name (Oyo) you want to calculate
+-	Sum_range, click on the salary column, ctrl + shift + down arrow to select all the salary list
+-	Click ok
+-	The Formula Result is displayed  =AVERAGEIF(C8:C27,C16,D8:D27)
+
+#### To Calculate Highest Edo Salary
+We will be using Maxifs because it has no singular variant
+-	=MAXIFS
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened
+-	Press ctrl A on the keyboard (this activates/opens/pops up the function Argument box), then you have something to work with and manage the parameters of the argument. The Function Argument box helps split each of the parameters and gives a definition of what each of them means.
+-	Max_range, click on the salary column, ctrl + shift + down arrow to select all the salary list
+-	Criteria_range, click on the company column, ctrl + shift + down arrow to select all the company list
+-	Criteria 1, click on any of the cells that has the company name (Edo) you want to calculate
+-	Click ok
+-	The Formula Result is displayed  =MAXIFS(D8:D27,C8,C27:C13)
+
+
