@@ -209,3 +209,24 @@ NB: Named Range: Is giving a set of items a single name so that you can refer to
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### MICROSOFT EXCEL FUNCTIONS 1. 
+MICROSOFT EXCEL FUNCTIONS 1. 
+
+Excel is a spreadsheet application and a lot of calculation happens in Excel. We will learn what it looks like doing calculations or working with Excel Functions.
+
+#### INTRODUCTION TO EXCEL FUNCTIONS
+How do you handle calculations, how do these calculations behave and what you are to do when they behave in those ways.
+We will look at Functions relating to Numbers and when there are conditions attached to them. Then its good to know the difference between Formulas and Functions.
+
+#### If you want to know the list of Functions you have in Excel
+-         Click on Formulas Tab
+-         Different subgroups within the Function Library
+-         Click on each sub groups (which compresses the Functions into subcategories) you will see the subcategories
+ 
+#### If you want to perform something in excel and you’re not sure of the function to use, and you need some information about some of the functions and what they do, then do the following:
+-         Click Insert Function command (Shift + F3)
+-         Type in your search question
+-         Click go
+-         This will show a streamlined list option of functions to the functions that will do what I have typed in 
+-         Click on each of the options to see the description that suits what you want to do
+ 
+One key thing that will come to mind whenever you are called to analyze a data set is to SUMMARIZE. So anytime you analyze a data set, what you do is DATA SUMMARIZATION.
