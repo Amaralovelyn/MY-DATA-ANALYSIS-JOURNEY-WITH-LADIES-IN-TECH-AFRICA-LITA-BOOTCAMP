@@ -408,4 +408,19 @@ We will be using Maxifs because it has no singular variant
 -	Click ok
 -	The Formula Result is displayed  =MAXIFS(D8:D27,C8,C27:C13)
 
+ ### To Calculate Lowest Taraba Salary
+ We will be using Minifs
+-	=MINIFS
+-	Once the function you want is highlighted
+-	An information about what the function does is displayed
+-	Press Tab key to select the function and opens an initial bracket
+-	Initial bracket is opened
+-	Press ctrl A on the keyboard (this activates/opens/pops up the function Argument box), then you have something to work with and manage the parameters of the argument. The Function Argument box helps split each of the parameters and gives a definition of what each of them means.
+-	Min_range, click on the salary column, ctrl + shift + down arrow to select all the salary list
+-	Criteria_range, click on the company column, ctrl + shift + down arrow to select all the company list
+-	Criteria 1, click on any of the cells that has the company name (Taraba) you want to calculate
+-	Click ok
+-	The Formula Result will be displayed
+
+
 
